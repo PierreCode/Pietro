@@ -113,6 +113,7 @@ form {
 
 form div + div {
   margin-top: 1em;
+  text-align: center;
 }
 
 label {
@@ -158,6 +159,8 @@ button {
      entre les étiquettes et les champs texte */
   margin-left: .5em;
 }
+
+
 
 
 
