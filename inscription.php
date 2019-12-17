@@ -7,7 +7,6 @@
 <head>
 <body>
 <?php		
-
 			/********************************************************************
 			Nom du script: inscription
 			Description: ce script proporse un formulaire d'inscription . Une fois le formulaire soumis, ce script 
@@ -98,7 +97,7 @@
 					if($result = mysqli_query($conn, $reqInsert, MYSQLI_USE_RESULT))
 					{
 						
-						echo 'vous êtes enregistré <a href="connection.php"> connexion </a>'; 
+						echo 'vous êtes enregistré <a href="connexion.php"> connexion </a>'; 
 						
 					}
 						
